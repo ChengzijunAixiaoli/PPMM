@@ -37,7 +37,7 @@ year = {2019}
 * Empirical performance and runtimes comparaison with empirical Sinkhorn distance of [POT](https://github.com/rflamary/POT):
 
 * Demo notebooks:
-	- [ppmm_example.ipynb](ppmm_example.ipynb): Compare PPMM with other methods in calculating
+	- [ppmm_example.ipynb](ppmm_example.ipynb): Compare PPMM with other methods in calculating the Wasserstein distance
 
 ### Authors
 
