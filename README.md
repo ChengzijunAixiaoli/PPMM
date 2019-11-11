@@ -43,7 +43,7 @@ year = {2019}
 
 * [Cheng Meng](https://github.com/ChengzijunAixiaoli)
 * [Jingyi Zhang]
-* [Mengrui Zhang]
+* [Mengrui Zhang](https://github.com/zhanzmr)
 
 
 
