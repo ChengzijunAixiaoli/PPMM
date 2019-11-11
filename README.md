@@ -42,7 +42,7 @@ year = {2019}
 ### Authors
 
 * [Cheng Meng](https://github.com/ChengzijunAixiaoli)
-* [Jingyi Zhang]
+* [Jingyi Zhang](https://github.com/joyeecat)
 * [Mengrui Zhang](https://github.com/zhanzmr)
 
 
