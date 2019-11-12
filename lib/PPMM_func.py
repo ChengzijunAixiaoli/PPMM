@@ -62,12 +62,12 @@ def drDir(x_ori, y_ori, ws, wt):
     data_weight = data_bind * weight_bind.reshape(-1, 1)
     cm = data_weight.mean(axis = 0)
     #cm = data_bind.mean(axis = 0)
-    s1 = (x_ori-cm)@signrt
-    s2 = (y_ori-cm)@signrt
+    s1 = (x_ori-cm)@signrt*ws.reshape(-1, 1)
+    s2 = (y_ori-cm)@signrt*wt.reshape(-1, 1)
     e1 = s1.mean(axis = 0)
     e2 = s2.mean(axis = 0)
-    v1 = fastCov(s1, ws)
-    v2 = fastCov(s2, wt)
+    v1 = fastCov((x_ori-cm)@signrt, ws)
+    v2 = fastCov((y_ori-cm)@signrt, wt)
     
     mat1 = ((v1 + np.outer(e1, e1))@(v1 + np.outer(e1, e1)) 
             + (v2 + np.outer(e2, e2))@(v2 + np.outer(e2, e2)))/2
