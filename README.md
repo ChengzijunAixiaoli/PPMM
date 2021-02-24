@@ -44,6 +44,8 @@ year = {2019}
 * [Cheng Meng](https://github.com/ChengzijunAixiaoli)
 * [Jingyi Zhang](https://github.com/joyeecat)
 * [Mengrui Zhang](https://github.com/zhanzmr)
+* [Tao Li](https://github.com/sherlockLitao)
+
 
 
 
