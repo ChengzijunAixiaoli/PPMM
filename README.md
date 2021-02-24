@@ -38,7 +38,7 @@ year = {2019}
 
 * Demo notebooks:
 	- [ppmm_example.ipynb](ppmm_example.ipynb): Compare PPMM with other methods in calculating the Wasserstein distance
-	- [color transfer.ipynb](color transfer.ipynb): Color Transfer using PPMM
+	- [color%20transfer.ipynb](color transfer.ipynb): Color Transfer using PPMM
 	![image](https://github.com/ChengzijunAixiaoli/PPMM/blob/master/transfer1.png)
 
 
