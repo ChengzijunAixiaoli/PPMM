@@ -1,7 +1,6 @@
 
 # PPMM
 
-![image](https://github.com/ChengzijunAixiaoli/PPMM/blob/master/transfer1.png)
 Python3 implementation of the paper [Large-scale optimal transport map estimation using projection pursuit] (NeurIPS 2019)
 
 Projection Pursuit Monge map (PPMM) is one of the projection-based empirical optimal transport map (OTM) estimation methods, which also includes Radon transformation method and Sliced method. Different from these methods, PPMM uses sufficient dimension reduction techniques to estimate the most “informative” projection direction in each iteration, resulting in a fast convergence rate in practice.
@@ -39,6 +38,9 @@ year = {2019}
 
 * Demo notebooks:
 	- [ppmm_example.ipynb](ppmm_example.ipynb): Compare PPMM with other methods in calculating the Wasserstein distance
+	- [color transfer.ipynb](color transfer.ipynb): Color Transfer using PPMM
+	![image](https://github.com/ChengzijunAixiaoli/PPMM/blob/master/transfer1.png)
+
 
 ### Authors
 
